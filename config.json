@@ -1,0 +1,4 @@
+{
+  "cert-path": "/etc/letsencrypt/live/www.long-double.com/",
+  "port": 443
+}
