@@ -15,7 +15,7 @@ module.exports = class WebAPI {
         this.express = require('express')
         this.app = express()
         this.http = require('http')
-        this.server = this.https.createServer(this.app)
+        this.server = this.http.createServer(this.app)
         this.Server = require("socket.io").Server
         this.io = new this.Server(this.server)
 
