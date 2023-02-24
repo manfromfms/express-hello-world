@@ -7,10 +7,10 @@ module.exports = class WebAPI {
 
         this.fs = require('fs')
 
-        this.options = {
+        /*this.options = {
             key: this.fs.readFileSync(this.config["cert-path"] + 'privkey.pem'),
             cert: this.fs.readFileSync(this.config["cert-path"] + 'fullchain.pem')
-        }
+        }*/
 
         this.express = require('express')
         this.app = express()
